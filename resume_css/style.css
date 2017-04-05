@@ -1,0 +1,63 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+body{
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #222;
+  line-height: 1.0;
+}
+
+#resume{
+  border: 1px solid #949599;
+  margin: 5px;
+  padding: 10px;
+}
+
+header{
+  font-size: 20px;
+  line-height: 0;
+  text-align: center;
+}
+
+#name{
+  text-align: center;
+  line-height:1.5;
+  margin-bottom: 15px;
+}
+
+#address p{
+  display: inline-block;
+  margin-right: 7px;
+  font-size: 16px;
+  background-color: #eee;
+}
+
+#contact_info p{
+  display: inline;
+  margin-right: 7px;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+#company{
+  border: 1px solid #949599;
+}
+
+#company h3,p{
+  display: inline-block;
+}
+
+#location{
+  float:right;
+}
+
+#company p{
+  text-align: right;
+}
+
+#position p{
+  display: inline;
+}
+#date{
+  float:right;
+}
