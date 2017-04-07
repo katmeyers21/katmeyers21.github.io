@@ -1,4 +1,5 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 
 body{
   font-size: 14px;
@@ -7,48 +8,112 @@ body{
   line-height: 1.0;
 }
 
+#footer ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+#picturebox{
+  height: 295px;
+  width: 210px;
+  overflow: hidden;
+  padding-right: 70px;
+  margin-right: 20px;
+  float: left;
+}
+
 #resume{
-  border: 1px solid #949599;
   margin: 5px;
   padding: 10px;
 }
 
+a{
+  color: grey;
+}
+
+a:visited{
+  color: pink;
+}
+
+a:hover{
+  color: rgb(60,196,123);
+}
+
+a:active{
+  color: grey;
+}
+
 header{
-  font-size: 20px;
-  line-height: 0;
-  text-align: center;
-}
-
-#name{
-  text-align: center;
-  line-height:1.5;
-  margin-bottom: 15px;
-}
-
-#address p{
-  display: inline-block;
-  margin-right: 7px;
   font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  overflow: auto;
+}
+
+#town{
+  list-style: initial;
+}
+
+#address{
+  margin-right:25px;
+  float: left;
+}
+
+
+#main_nav{
+  display: inline-block;
+  padding-right: 5px;
+  font-variant-caps: all-small-caps;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+#main_nav li{
+  margin-right: 5px;
+  list-style: none;
+  display: inline-block;
   background-color: #eee;
 }
 
-#contact_info p{
-  display: inline;
-  margin-right: 7px;
-  margin-top: 25px;
-  font-size: 16px;
+#main_nav ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+
+#name{
+  line-height:1.5;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  background-color: #eee;
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+}
+
+header ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 28px;
 }
 
 #company{
-  border: 1px solid #949599;
+  background-color: #eee;
 }
 
 #company h3,p{
   display: inline-block;
+  margin-left: 5px;
 }
 
 #location{
   float:right;
+  margin-right: 5px;
+  margin-top: 6px;
 }
 
 #company p{
@@ -61,3 +126,75 @@ header{
 #date{
   float:right;
 }
+
+h2{
+  text-align: left;
+  font-variant-caps: all-small-caps;
+  font-size: 40px;
+  margin: 5px;
+}
+
+#tech ul{
+  display: inline-block;
+  height: 90px;
+  width: 180px;
+  padding-right: 15px;
+  padding-left: 5px;
+  padding-top: 10px;
+  float: left;
+  background-color: #eee;
+  border-bottom: 2px solid grey;
+  overflow: scroll;
+}
+
+#activities{
+  float: left;
+}
+#activities ul{
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 5px;
+  height: 90px;
+  width: 190px;
+  overflow: scroll;
+  float: left;
+  background-color: #eee;
+  border-bottom: 2px solid grey;
+}
+
+#tech{
+  float: left;
+}
+
+#interests ul{
+  display: inline-block;
+  padding-right: 0px;
+  padding-left: 5px;
+  padding-top: 10px;
+  height: 90px;
+  width: 160px;
+  overflow: scroll;
+  background-color: #eee;
+  border-bottom: 2px solid grey;
+}
+
+#interests{
+  float: left;
+}
+
+#footer{
+  display: inline-block;
+  padding-right: 5px;
+  font-variant-caps: all-small-caps;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+#footer li{
+    margin-right: 7px;
+    list-style: none;
+    display: inline-block;
+    background-color: #eee;
+  }
