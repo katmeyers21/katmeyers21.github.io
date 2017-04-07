@@ -8,11 +8,9 @@ body{
   line-height: 1.0;
 }
 
-#footer ul{
-  margin: 0;
-  list-style: none;
-  padding-left: 0;
-  display: inline-block;
+#container{
+  margin: 5px;
+  padding: 10px;
 }
 
 #picturebox{
@@ -24,9 +22,38 @@ body{
   float: left;
 }
 
-#resume{
-  margin: 5px;
-  padding: 10px;
+
+
+#name{
+  line-height:1.5;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  background-color: #eee;
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+}
+
+header{
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  overflow: auto;
+}
+
+header ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 28px;
+}
+
+#town{
+  list-style: initial;
+}
+
+#address{
+  margin-right:25px;
+  float: left;
 }
 
 a{
@@ -44,23 +71,6 @@ a:hover{
 a:active{
   color: grey;
 }
-
-header{
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 40px;
-  overflow: auto;
-}
-
-#town{
-  list-style: initial;
-}
-
-#address{
-  margin-right:25px;
-  float: left;
-}
-
 
 #main_nav{
   display: inline-block;
@@ -82,23 +92,6 @@ header{
   list-style: none;
   padding-left: 0;
   display: inline-block;
-}
-
-
-#name{
-  line-height:1.5;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
-  background-color: #eee;
-  font-family: 'Satisfy', cursive;
-  font-size: 50px;
-}
-
-header ul{
-  margin: 0;
-  list-style: none;
-  padding-left: 0;
-  margin-top: 28px;
 }
 
 #school{
@@ -245,6 +238,10 @@ h2{
   margin: 5px;
 }
 
+#tech{
+  float: left;
+}
+
 #tech ul{
   display: inline-block;
   height: 90px;
@@ -274,7 +271,7 @@ h2{
   border-bottom: 2px solid grey;
 }
 
-#tech{
+#interests{
   float: left;
 }
 
@@ -288,10 +285,6 @@ h2{
   overflow: scroll;
   background-color: #eee;
   border-bottom: 2px solid grey;
-}
-
-#interests{
-  float: left;
 }
 
 #footer{
@@ -308,4 +301,11 @@ h2{
     list-style: none;
     display: inline-block;
     background-color: #eee;
+  }
+
+  #footer ul{
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
   }
