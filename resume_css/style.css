@@ -34,7 +34,7 @@ a{
 }
 
 a:visited{
-  color: pink;
+  color: #FFB6C1;
 }
 
 a:hover{
@@ -101,6 +101,37 @@ header ul{
   margin-top: 28px;
 }
 
+#school{
+  background-color: #eee;
+}
+
+#school h3,p{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#school p{
+  text-align: right;
+}
+
+#location{
+  float:right;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+#degree p{
+  display: inline;
+}
+
+#degree2 p{
+  display: inline;
+}
+
+#graddate{
+  float:right;
+}
+
 #company{
   background-color: #eee;
 }
@@ -110,22 +141,102 @@ header ul{
   margin-left: 5px;
 }
 
-#location{
+#company p{
+  text-align: right;
+}
+
+#location2{
   float:right;
   margin-right: 5px;
   margin-top: 6px;
 }
 
-#company p{
-  text-align: right;
-}
-
 #position p{
   display: inline;
 }
+
 #date{
   float:right;
 }
+
+#position2 p{
+  display: inline;
+}
+
+#date2{
+  float:right;
+}
+
+#company2{
+  background-color: #eee;
+}
+
+#company2 h3,p{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#company2 p{
+  text-align: right;
+}
+
+#location3{
+  float:right;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+#position3 p{
+  display: inline;
+}
+
+#date3{
+  float:right;
+}
+
+#position4 p{
+  display: inline;
+}
+
+#date4{
+  float:right;
+}
+
+#company3{
+  background-color: #eee;
+}
+
+#company3 h3,p{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#company3 p{
+  text-align: right;
+}
+
+#location4{
+  float:right;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+#position5 p{
+  display: inline;
+}
+
+#date5{
+  float:right;
+}
+
+#position6 p{
+  display: inline;
+}
+
+#date6{
+  float:right;
+}
+
 
 h2{
   text-align: left;
@@ -187,7 +298,7 @@ h2{
   display: inline-block;
   padding-right: 5px;
   font-variant-caps: all-small-caps;
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom: 20px;
   margin-top: 15px;
 }
