@@ -1,14 +1,12 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-
 body{
-  font-size: 14px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-family: 'Amiri', serif;
   color: #222;
   line-height: 1.0;
 }
 
 #container{
+  width: 960px;
   margin: 5px;
   padding: 10px;
 }
@@ -27,7 +25,7 @@ body{
   margin-bottom: 15px;
   padding-bottom: 5px;
   background-color: #eee;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 50px;
 }
 
