@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
      <meta charset="utf-8"/>
-     <title>Kathryn Meyers</title>
+     <title>Kathryn Meyers: Resume</title>
      <link href="css/style.css" rel="stylesheet" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script src="jquery.big-slide.js"></script>
+  </head>
 
-   </head>
-
-  <body>
+   <body>
 
     <div id="container">
 
@@ -25,6 +26,24 @@
             <li><strong>Website:</strong> kathrynmeyers.com</li>
           </ul>
       </header>
+
+      <script>
+          $(document).ready(function() {
+              $('.menu-link').bigSlide();
+            });
+      </script>
+
+      <a href="#menu" class="menu-link">&#9776;</a>
+      <nav id="menu" class="panel" role="navigation">
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="broadcast.html">Broadcast</a></li>
+        </ul>
+
+      </nav>
+
 
       <nav id="main_nav">
         <ul>

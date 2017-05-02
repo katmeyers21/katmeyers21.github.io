@@ -98,6 +98,22 @@ a:active{
   display: inline-block;
 }
 
+
+#menu{
+  display: block;
+  font-variant-caps: all-small-caps;
+  margin-bottom: 12px;
+  background-color: #eee;
+}
+
+#menu li{
+  list-style: none;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 35px;
+}
+
+
 #school{
   background-color: #eee;
 }
@@ -342,3 +358,14 @@ h2{
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
+
+  .panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+.wrap {
+    position: relative;
+}

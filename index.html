@@ -3,26 +3,50 @@
 
    <head>
      <meta charset="utf-8"/>
-     <title>My First Web Page</title>
+     <title>Kathryn Meyers</title>
+     <link href="css/style.css" rel="stylesheet" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script src="jquery.big-slide.js"></script>
    </head>
 
-    <body>
 
-      <h1>Kathryn Meyers</h1>
+   <body>
+      <div id="container">
 
-      <p>I am very excited to be creating my <strong>first</strong> web page for my <strong>last</strong> School of Communication class before I graduate!</p>
+        <header>
+          <div id="picturebox">
+            <img src="images/rsz_profilepicture.jpg" alt="Headshot"/>
+          </div>
 
-      <ul>
-       <li>Web Design</li>
-       <li>Professor Erin Brown</li>
-       <li>University of Miami</li>
-      </ul>
+          <h1 id="name">Kathryn A. Meyers</h1>
 
-     <img src="octocat.png" alt="Octocat" />
-      <p>My nickname is Kat.</p>
-      <p>I most definitely like cats.</p>
-      <p>I shall call her the Octo<em>Kat</em>.</p>
+          <p>Fiercely Independent, Joyfully Driven</p>
+        </header>
 
-    </body>
+          <script>
+              $(document).ready(function() {
+                  $('.menu-link').bigSlide();
+                });
+          </script>
+
+          <a href="#menu" class="menu-link">&#9776;</a>
+          <nav id="menu" class="panel" role="navigation">
+
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="broadcast.html">Broadcast</a></li>
+            </ul>
+
+          </nav>
+
+
+
+          <h2>About Me</h2>
+          <p>Kathryn Meyers is a senior Foote Fellow Scholar at the University of Miami pursuing degrees in Marketing and Broadcast Journalism. She united her passions for business and media during a summer internship in show production at CNBC.  Kathryn is an executive producer and anchor at UMTV, as well as the Vice President of Communication for the American Marketing Association. She has also completed several research projects in the School of Business Administration. Kathryn is currently seeking a full-time job.
+
+
+      </div>
+   </body>
 
 </html>
