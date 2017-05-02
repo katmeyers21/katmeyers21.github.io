@@ -23,6 +23,16 @@ body{
   float: left;
 }
 
+#picturebox2{
+  height: 275px;
+  width: 200px;
+  border: 1px solid grey;
+  overflow: hidden;
+  padding-right: 70px;
+  margin-right: 20px;
+  float: left;
+}
+
 #name{
   line-height:1.5;
   margin-bottom: 15px;
@@ -30,6 +40,10 @@ body{
   background-color: #eee;
   font-family: 'Great Vibes', cursive;
   font-size: 50px;
+}
+
+#motto{
+  font-size: 30px;
 }
 
 header{
@@ -368,4 +382,23 @@ h2{
 
 .wrap {
     position: relative;
+}
+
+
+#about{
+  height: 180px;
+  width: 960px;
+  overflow: scroll;
+  text-align: justify;
+}
+
+#about p{
+  background-color: #eee;
+}
+
+#about h2{
+  margin-left: 5px;
+}
+#motto{
+  font-size: 25px;
 }
