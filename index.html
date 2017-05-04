@@ -5,98 +5,33 @@
      <meta charset="utf-8"/>
      <title>Kathryn Meyers</title>
      <link href="css/style.css" rel="stylesheet" />
-     <link href="slick-master/slick/slick.css" rel="stylesheet" />
-     <link href="slick-master/slick/slick-theme.css" rel="stylesheet" />
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
      <script src="jquery.big-slide.js"></script>
-     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-     <script src="slick-master/slick/slick.js"></script>
-
-     <style type="text/css">
-     html, body {
-       margin: 0;
-       padding: 0;
-     }
-
-     * {
-       box-sizing: border-box;
-     }
-
-     .slider {
-         width: 50%;
-         margin: 100px auto;
-     }
-
-     .slick-slide {
-       margin: 0px 20px;
-     }
-
-     .slick-slide img {
-       width: 100%;
-     }
-
-     .slick-prev:before,
-     .slick-next:before {
-         color: black;
-     }
-   </style>
    </head>
 
 
    <body>
-     <section class="regular slider">
-       <div>
-         <img src="images/aboutme.jpg" alt="aboutme">
+
+       <div id="container">
+
+     <header>
+       <div id="intro">
+       <h1 id="name2">Kathryn A. Meyers</h1>
+       <img src="images/rsz_sunsetpic.jpg" alt="Meyers"/>
+
+       <div id="motto">
+         <p>Fiercely Independent &amp; Joyfully Driven</p>
        </div>
-       <div>
-         <img src="http://placehold.it/350x300?text=2">
-       </div>
-       <div>
-         <img src="http://placehold.it/350x300?text=3">
-       </div>
-       <div>
-         <img src="http://placehold.it/350x300?text=4">
-       </div>
-       <div>
-         <img src="http://placehold.it/350x300?text=5">
-       </div>
-       <div>
-         <img src="http://placehold.it/350x300?text=6">
-       </div>
-     </section>
+     </div>
+
+     </header>
+
 
      <script>
-       $(document).on('ready', function() {
-         $(".regular").slick({
-           dots: true,
-           infinite: true,
-           slidesToShow: 3,
-           slidesToScroll: 3
-         });
-       });
+         $(document).ready(function() {
+             $('.menu-link').bigSlide();
+           });
      </script>
-     
-     <script type="text/javascript" src="slick-master/slick/slick.min.js"></script>
-
-      <div id="container">
-
-        <header>
-          <div id="picturebox2">
-            <img src="images/aboutme.jpg" alt="Meyers"/>
-          </div>
-
-          <h1 id="name">Kathryn A. Meyers</h1>
-
-          <div id="motto">
-            <p>Fiercely Independent &amp; Joyfully Driven</p>
-          </div>
-        </header>
-
-                  <script>
-                      $(document).ready(function() {
-                          $('.menu-link').bigSlide();
-                        });
-                  </script>
 
                   <a href="#menu" class="menu-link">&#9776;</a>
                   <nav id="menu" class="panel" role="navigation">
