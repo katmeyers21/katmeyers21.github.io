@@ -394,6 +394,7 @@ h2{
 
 #about p{
   background-color: #eee;
+  padding-right: 5px;
 }
 
 #about h2{
@@ -401,4 +402,18 @@ h2{
 }
 #motto{
   font-size: 25px;
+}
+
+#description{
+  width: 330px;
+  float: right;
+  text-align: justify;
+  padding-right: 15px;
+}
+
+div #video{
+  background-color: #eee;
+  margin-top: 30px;
+  width: 960px;
+  height: 337px;
 }
