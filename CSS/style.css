@@ -456,3 +456,19 @@ div #video{
   width: 960px;
   height: 337px;
 }
+
+#protracker{
+  width:535px;
+  text-align: justify;
+}
+
+main img{
+  border: 2px solid grey;
+}
+
+
+main h3{
+  background-color: #eee;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
