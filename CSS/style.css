@@ -468,6 +468,10 @@ div #video{
   margin: 10px;
 }
 
+#gallery img{
+  height: 239px;
+  width: 239px;
+
 main h3{
   background-color: #eee;
   padding-top: 2px;
@@ -555,4 +559,9 @@ div #resproject4{
 
 #resproject4 img{
   border: 2px solid grey;
+}
+
+
+#gallery{
+  background-color: black;
 }
