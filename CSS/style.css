@@ -450,6 +450,9 @@ h2{
   padding-right: 15px;
 }
 
+
+
+
 div #video{
   background-color: #eee;
   margin-top: 30px;
@@ -462,13 +465,96 @@ div #video{
   text-align: justify;
 }
 
-main img{
-  border: 2px solid grey;
+#appdisplay img{
+  border: 2px solid black;
+  margin: 10px;
 }
-
 
 main h3{
   background-color: #eee;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+
+#endofrow img{
+  margin-right:0px;
+  float:right;
+}
+
+#endofrow{
+  height: 394px;
+  width: 221px;
+  float:right;
+  padding: 0px;
+}
+#begofrow img{
+  margin-left: 0px;
+  float:left;
+}
+
+
+#research{
+  margin-top: 20px;
+}
+
+#research img{
+  margin-left: 0px;
+}
+
+#researchdescription{
+  width: 400px;
+  float: right;
+  text-align: justify;
+  padding-right: 25px;
+}
+
+#researchdescription2{
+  width: 390px;
+  float: right;
+  text-align: justify;
+  padding-right: 25px;
+}
+
+div #resproject{
+  background-color: #eee;
+  margin-top: 30px;
+  width: 960px;
+  height: 398px;
+}
+
+div #resproject2{
+  background-color: #eee;
+  margin-top: 30px;
+  width: 960px;
+  height: 381px;
+}
+
+div #resproject3{
+  background-color: #eee;
+  margin-top: 30px;
+  width: 960px;
+  height: 352px;
+}
+
+div #resproject4{
+  background-color: #eee;
+  margin-top: 30px;
+  width: 960px;
+  height: 391px;
+}
+
+#resproject img{
+  border: 2px solid grey;
+}
+
+#resproject2 img{
+  border: 2px solid grey;
+}
+
+#resproject3 img{
+  border: 2px solid grey;
+}
+
+#resproject4 img{
+  border: 2px solid grey;
 }
